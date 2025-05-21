@@ -1,0 +1,197 @@
+////
+/// Pine color variables
+///
+/// @group pine
+////
+
+:root {
+  // Primary colors
+  --pine-color-primary: #2463EB; // Blue 600
+  --pine-color-primary-hover: #1D4ED8; // Blue 700
+  --pine-color-primary-disabled: rgba(36, 99, 235, 0.5); // Blue 600 with opacity
+  
+  --pine-color-accent: #533BE5; // Purple 600
+  --pine-color-accent-hover: #4C1D95; // Purple 700
+  --pine-color-accent-disabled: rgba(83, 59, 229, 0.5); // Purple 600 with opacity
+  
+  --pine-color-success: #079250; // Green 600
+  --pine-color-success-hover: #047857; // Green 700
+  
+  --pine-color-warning: #FDBB21; // Yellow 400
+  --pine-color-warning-hover: #D97706; // Yellow 600
+  
+  --pine-color-danger: #EF4444; // Red 500
+  --pine-color-danger-hover: #DC2626; // Red 600
+  --pine-color-danger-disabled: rgba(239, 68, 68, 0.5); // Red 500 with opacity
+  
+  --pine-color-info: #3B82F6; // Blue 500
+  --pine-color-info-hover: #2563EB; // Blue 600
+  
+  --pine-color-brand: #4D4D4C; // Charcoal color
+  
+  // Neutral colors
+  --pine-color-white: #FFFFFF;
+  --pine-color-black: #000000;
+  --pine-color-secondary: #F3F4F6;
+  --pine-color-secondary-hover: #E5E7EB;
+  --pine-color-secondary-disabled: rgba(243, 244, 246, 0.5);
+  --pine-color-border: #E5E7EB;
+  --pine-color-border-disabled: #D1D5DB;
+  --pine-color-focus-ring: #3B82F6;
+  --pine-color-focus-ring-danger: #F87171; // Red 300
+  
+  // Text colors
+  --pine-color-text-primary: #FFFFFF;
+  --pine-color-text-primary-disabled: rgba(255, 255, 255, 0.65);
+  --pine-color-text-secondary: #374151; // Grey 700
+  --pine-color-text-secondary-hover: #1F2937; // Grey 800
+  --pine-color-text-secondary-disabled: rgba(55, 65, 81, 0.5); // Grey 700 with opacity
+  --pine-color-text-accent: #5B21B6; // Purple 700
+  --pine-color-text-accent-disabled: rgba(91, 33, 182, 0.5); // Purple 700 with opacity
+  --pine-color-text-success: #065F46; // Green 700
+  --pine-color-text-danger: #991B1B; // Red 700
+  --pine-color-text-danger-disabled: rgba(153, 27, 27, 0.5); // Red 700 with opacity
+  --pine-color-text-warning: #78350F; // Yellow 800
+  --pine-color-text-info: #1E40AF; // Blue 700
+  --pine-color-text-neutral: #374151; // Grey 700
+  
+  // Grey scale
+  --pine-color-grey-050: #FAFAFA;
+  --pine-color-grey-100: #F3F4F6;
+  --pine-color-grey-150: #E5E7EB;
+  --pine-color-grey-200: #E5E7EB;
+  --pine-color-grey-300: #D1D5DB;
+  --pine-color-grey-400: #9CA3AF;
+  --pine-color-grey-500: #6B7280;
+  --pine-color-grey-600: #4B5563;
+  --pine-color-grey-700: #374151;
+  --pine-color-grey-800: #1F2937;
+  --pine-color-grey-900: #111827;
+  --pine-color-grey-950: #030712;
+  
+  // Blue scale
+  --pine-color-blue-050: #EFF6FF;
+  --pine-color-blue-100: #DBEAFE;
+  --pine-color-blue-150: #BFDBFE;
+  --pine-color-blue-200: #93C5FD;
+  --pine-color-blue-300: #60A5FA;
+  --pine-color-blue-400: #3B82F6;
+  --pine-color-blue-500: #2563EB;
+  --pine-color-blue-600: #1D4ED8;
+  --pine-color-blue-700: #1E40AF;
+  --pine-color-blue-800: #1E3A8A;
+  --pine-color-blue-900: #1E3A8A;
+  --pine-color-blue-950: #172554;
+  
+  // Green scale
+  --pine-color-green-050: #ECFDF5;
+  --pine-color-green-100: #D1FAE5;
+  --pine-color-green-150: #A7F3D0;
+  --pine-color-green-200: #6EE7B7;
+  --pine-color-green-300: #34D399;
+  --pine-color-green-400: #10B981;
+  --pine-color-green-500: #059669;
+  --pine-color-green-600: #047857;
+  --pine-color-green-700: #065F46;
+  --pine-color-green-800: #064E3B;
+  --pine-color-green-900: #022C22;
+  --pine-color-green-950: #011916;
+  
+  // Red scale
+  --pine-color-red-050: #FEF2F2;
+  --pine-color-red-100: #FEE2E2;
+  --pine-color-red-150: #FECACA;
+  --pine-color-red-200: #FCA5A5;
+  --pine-color-red-300: #F87171;
+  --pine-color-red-400: #EF4444;
+  --pine-color-red-500: #DC2626;
+  --pine-color-red-600: #B91C1C;
+  --pine-color-red-700: #991B1B;
+  --pine-color-red-800: #7F1D1D;
+  --pine-color-red-900: #450A0A;
+  --pine-color-red-950: #270606;
+  
+  // Yellow scale
+  --pine-color-yellow-050: #FFFBEB;
+  --pine-color-yellow-100: #FEF3C7;
+  --pine-color-yellow-150: #FDE68A;
+  --pine-color-yellow-200: #FCD34D;
+  --pine-color-yellow-300: #FBBF24;
+  --pine-color-yellow-400: #F59E0B;
+  --pine-color-yellow-500: #D97706;
+  --pine-color-yellow-600: #B45309;
+  --pine-color-yellow-700: #92400E;
+  --pine-color-yellow-800: #78350F;
+  --pine-color-yellow-900: #451A03;
+  --pine-color-yellow-950: #270F01;
+  
+  // Purple scale
+  --pine-color-purple-050: #F5F3FF;
+  --pine-color-purple-100: #EDE9FE;
+  --pine-color-purple-150: #DDD6FE;
+  --pine-color-purple-200: #C4B5FD;
+  --pine-color-purple-300: #A78BFA;
+  --pine-color-purple-400: #8B5CF6;
+  --pine-color-purple-500: #7C3AED;
+  --pine-color-purple-600: #6D28D9;
+  --pine-color-purple-700: #5B21B6;
+  --pine-color-purple-800: #4C1D95;
+  --pine-color-purple-900: #2E1065;
+  --pine-color-purple-950: #1D0B4C;
+  
+  // Mercury scale (greyish tones)
+  --pine-color-mercury-050: #F9FAFB;
+  --pine-color-mercury-100: #F3F4F6;
+  --pine-color-mercury-150: #E5E7EB;
+  --pine-color-mercury-200: #D1D5DB;
+  --pine-color-mercury-300: #9CA3AF;
+  --pine-color-mercury-400: #6B7280;
+  --pine-color-mercury-500: #4B5563;
+  --pine-color-mercury-600: #374151;
+  --pine-color-mercury-700: #1F2937;
+  --pine-color-mercury-800: #111827;
+  --pine-color-mercury-900: #0A0C10;
+  --pine-color-mercury-950: #030712;
+  
+  // Dimensions (detected in button.scss)
+  --pine-dimension-none: 0;
+  --pine-dimension-025: 0.0625rem; /* 1px */
+  --pine-dimension-xs: 0.5rem; /* 8px */
+  --pine-dimension-sm: 0.75rem; /* 12px */
+  --pine-dimension-md: 1rem; /* 16px */
+  --pine-dimension-lg: 1.25rem; /* 20px */
+  --pine-dimension-xl: 2rem; /* 32px */
+  
+  // Font weights
+  --pine-font-weight-medium: 500;
+  --pine-font-weight-bold: 700;
+  
+  // Line heights
+  --pine-line-height-body: 1.5;
+  
+  // Border radius
+  --pine-border-radius-full: 9999px;
+  
+  // Box shadows
+  --pine-box-shadow-050: 0 1px 2px rgba(0, 0, 0, 0.05);
+  
+  // Chip colors
+  --pine-chip-color-warning-dot: var(--pine-color-yellow-600);
+  --pine-chip-color-warning-hover: var(--pine-color-yellow-300);
+  --pine-chip-color-warning: var(--pine-color-yellow-100);
+  --pine-chip-color-success-dot: var(--pine-color-green-600);
+  --pine-chip-color-success-hover: var(--pine-color-green-300);
+  --pine-chip-color-success: var(--pine-color-green-100);
+  --pine-chip-color-neutral-dot: var(--pine-color-grey-600);
+  --pine-chip-color-neutral-hover: var(--pine-color-grey-300);
+  --pine-chip-color-neutral: var(--pine-color-grey-100);
+  --pine-chip-color-info-dot: var(--pine-color-blue-600);
+  --pine-chip-color-info-hover: var(--pine-color-blue-300);
+  --pine-chip-color-info: var(--pine-color-blue-100);
+  --pine-chip-color-danger-dot: var(--pine-color-red-600);
+  --pine-chip-color-danger-hover: var(--pine-color-red-300);
+  --pine-chip-color-danger: var(--pine-color-red-100);
+  --pine-chip-color-accent-dot: var(--pine-color-purple-600);
+  --pine-chip-color-accent-hover: var(--pine-color-purple-300);
+  --pine-chip-color-accent: var(--pine-color-purple-100);
+} 

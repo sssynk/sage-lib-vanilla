@@ -1,2 +1,0 @@
-class SageBody < SageComponent
-end

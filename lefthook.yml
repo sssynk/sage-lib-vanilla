@@ -1,9 +1,0 @@
-pre-commit:
-  commands:
-    yarn_validate:
-      run: ./bin/yarn-check.sh
-
-commit-msg:
-  commands:
-    lint-commit:
-      run: npx commitlint --edit

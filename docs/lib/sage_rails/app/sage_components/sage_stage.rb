@@ -1,2 +1,0 @@
-class SageStage < SageComponent
-end
